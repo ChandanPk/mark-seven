@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
 
+
 body,
 * {
   font-family: "Mate SC", serif;
@@ -11,6 +12,8 @@ body,
   max-width: 800px;
   margin: auto;
 }
+
+/* Input & output field styles */
 
 textarea {
   /* resize: none; */
@@ -33,6 +36,9 @@ textarea {
   border-radius: 2px;
 }
 
+
+/* Buuton styles */
+
 button {
   display: inline;
   margin-left: 53px;
@@ -49,6 +55,8 @@ button:hover {
   background-color: rgb(243, 202, 174);
 }
 
+/* Headers & Footer Styles */
+
 .header {
   height: 120px;
   text-align: center;
@@ -64,6 +72,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* basic stylings */
 
 h2 {
   display: inline;
